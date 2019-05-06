@@ -1,5 +1,26 @@
 {
   "name": "budgeting-tool-backend",
-  "private": true,
-  "dependencies": {}
+  "version": "1.0.0",
+  "description": "backend for budgeting tool",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yuvenus/budgeting-tool-backend.git"
+  },
+  "keywords": [
+    "budgeting"
+  ],
+  "author": "Venus Yu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yuvenus/budgeting-tool-backend/issues"
+  },
+  "homepage": "https://github.com/yuvenus/budgeting-tool-backend#readme",
+  "dependencies": {
+    "express": "^4.16.4"
+  }
 }
